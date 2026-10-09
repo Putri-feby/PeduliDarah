@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" fill="none">
+  <!-- PMI Bunga shape for red backgrounds -->
+  <g transform="translate(8, 5)">
+
+    <!-- Outer flower path: white fill -->
+    <path d="
+      M92,14
+      A38,38 0 0,1 130,52
+      A38,38 0 0,1 168,90
+      A38,38 0 0,1 130,128
+      A38,38 0 0,1 92,166
+      A38,38 0 0,1 54,128
+      A38,38 0 0,1 16,90
+      A38,38 0 0,1 54,52
+      A38,38 0 0,1 92,14
+      Z
+    " fill="white"/>
+
+    <!-- Red cross cut-out (same as background color so it appears as negative space) -->
+    <!-- Vertical bar -->
+    <rect x="72" y="46" width="40" height="88" rx="5" fill="#cc0000"/>
+    <!-- Horizontal bar -->
+    <rect x="46" y="72" width="92" height="40" rx="5" fill="#cc0000"/>
+
+  </g>
+
+  <!-- Text: Palang Merah Indonesia — white -->
+  <text x="200" y="72"  font-family="'Arial Black', 'Arial', sans-serif" font-weight="900" font-size="44" fill="white" letter-spacing="-0.5">Palang</text>
+  <text x="200" y="120" font-family="'Arial Black', 'Arial', sans-serif" font-weight="900" font-size="44" fill="white" letter-spacing="-0.5">Merah</text>
+  <text x="200" y="168" font-family="'Arial Black', 'Arial', sans-serif" font-weight="900" font-size="44" fill="white" letter-spacing="-0.5">Indonesia</text>
+</svg>

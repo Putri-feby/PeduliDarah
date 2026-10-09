@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" fill="none">
+  <!-- PMI Bunga / Flower Shape -->
+  <g transform="translate(8, 5)">
+    <!-- 4 petals: each is a circle, white fill, red stroke -->
+    <!-- Top petal -->
+    <circle cx="92" cy="52" r="38" fill="white" stroke="#cc0000" stroke-width="5.5"/>
+    <!-- Bottom petal -->
+    <circle cx="92" cy="128" r="38" fill="white" stroke="#cc0000" stroke-width="5.5"/>
+    <!-- Left petal -->
+    <circle cx="54" cy="90" r="38" fill="white" stroke="#cc0000" stroke-width="5.5"/>
+    <!-- Right petal -->
+    <circle cx="130" cy="90" r="38" fill="white" stroke="#cc0000" stroke-width="5.5"/>
+
+    <!-- White center square to clean up petal overlaps -->
+    <rect x="54" y="52" width="76" height="76" fill="white"/>
+
+    <!-- Re-draw petal arcs on top so strokes show properly -->
+    <!-- We re-stroke only outer arcs using clip path trick -->
+    <!-- Instead: draw outline path for the flower shape -->
+    <path d="
+      M92,14
+      A38,38 0 0,1 130,52
+      A38,38 0 0,1 168,90
+      A38,38 0 0,1 130,128
+      A38,38 0 0,1 92,166
+      A38,38 0 0,1 54,128
+      A38,38 0 0,1 16,90
+      A38,38 0 0,1 54,52
+      A38,38 0 0,1 92,14
+      Z
+    " fill="white" stroke="#cc0000" stroke-width="5.5"/>
+
+    <!-- Red Cross (plus sign) centered -->
+    <rect x="72" y="46" width="40" height="88" rx="5" fill="#cc0000"/>
+    <rect x="46" y="72" width="92" height="40" rx="5" fill="#cc0000"/>
+  </g>
+
+  <!-- Text: Palang Merah Indonesia -->
+  <text x="200" y="72" font-family="'Arial Black', 'Arial', sans-serif" font-weight="900" font-size="44" fill="#2d3d4e" letter-spacing="-0.5">Palang</text>
+  <text x="200" y="120" font-family="'Arial Black', 'Arial', sans-serif" font-weight="900" font-size="44" fill="#2d3d4e" letter-spacing="-0.5">Merah</text>
+  <text x="200" y="168" font-family="'Arial Black', 'Arial', sans-serif" font-weight="900" font-size="44" fill="#2d3d4e" letter-spacing="-0.5">Indonesia</text>
+</svg>
